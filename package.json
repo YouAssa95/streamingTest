@@ -1,0 +1,17 @@
+{
+  "name": "streamintest",
+  "version": "1.0.0",
+  "description": "",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "express-server": "node index.js",
+    "streaming-server": "node stream.js 12345"
+  },
+  "author": "youssef el ouarrat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "ws": "^1.1.1"
+  }
+}
